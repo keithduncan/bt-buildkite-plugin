@@ -1,0 +1,7 @@
+#!/bin/sh
+
+source ../vendor/bt.sh/bt.sh
+
+bt_init
+
+bt_start 'step'
