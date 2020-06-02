@@ -1,0 +1,3 @@
+[submodule "vendor/bt.sh"]
+	path = vendor/bt.sh
+	url = https://github.com/keithduncan/bt.sh
