@@ -1,0 +1,5 @@
+name: bt
+description: Annotates the build with a bootstrap trace
+author: https://github.com/keithduncan
+requirements: []
+configuration: {}
