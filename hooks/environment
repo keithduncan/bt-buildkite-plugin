@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ../vendor/bt.sh/bt.sh
+source "${BASH_SOURCE%/*}"/../vendor/bt.sh/bt.sh
 
 bt_init
 
