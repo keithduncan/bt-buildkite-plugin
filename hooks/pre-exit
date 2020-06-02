@@ -4,4 +4,7 @@ source ../vendor/bt.sh/bt.sh
 
 bt_end 'step'
 
-bt_cleanup
+report="$```\n(bt_report)\n```"
+buildkite-agent annotate "${report}" --style info
+
+bt_cleanup -f
